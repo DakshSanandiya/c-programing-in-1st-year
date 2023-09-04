@@ -7,7 +7,7 @@ void main ()
 	scanf("%d %d %d",&a,&b,&c);	
 
 	if (a == b && b == c){
-		printf("the triangle is equilateral");
+	printf("the triangle is equilateral");
 	}
 
 else if(a == b || b == c || c == a){
