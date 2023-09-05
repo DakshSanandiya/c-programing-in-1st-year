@@ -7,9 +7,9 @@ void main (){
 	scanf("%d %d %d",&a,&b,&c);
 	
 	if(a>b && a>c && c>b){
-		printf("%d is second largest",b);
-	}else if(a>b && a>c && b>c){
 		printf("%d is second largest",c);
+	}else if(a>b && a>c && b>c){
+		printf("%d is second largest",b);
 	}else{
 		printf("%d is second largest",a);
 	}
